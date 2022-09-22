@@ -1,0 +1,39 @@
+.home-banner {
+     margin-top: 5px;
+     margin-bottom: 20px;
+}
+.services-header h2{
+     margin-top: 40px;
+     color: rgb(207, 5, 123);
+     font-size: 45px;
+     font-weight: 700;
+ }
+ .service-types {
+     margin-top: 40px;
+     margin-bottom: 50px;
+     color: rgb(207, 5, 123);
+     font-size: 45px;
+     font-weight: 700;
+ }
+ .services-header img{
+     width: 100%;
+     margin: 60px 0;
+ 
+ }
+.service-container { 
+     display: grid;
+     grid-template-columns: repeat(3 , 1fr) ;
+     grid-gap: 20px;
+}
+
+@media only screen and (max-width:688px){
+     .service-container{
+          grid-template-columns: repeat(1 , 1fr);
+     }
+     
+}
+@media  only screen and (min-width:689){
+     .service-container{
+          grid-template-columns: repeat(2 , 2fr);
+     }
+}
